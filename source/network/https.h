@@ -15,7 +15,7 @@ extern "C"
 {
 #endif
 
-// #define DEBUG_NETWORK
+#define DEBUG_NETWORK
 #define REDIRECT_LIMIT 3
 #define CONNECT_TIMEOUT 10000
 #define READ_WRITE_TIMEOUT 20000

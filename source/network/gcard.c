@@ -43,7 +43,6 @@ u8 has_enabled_providers()
 void add_game_to_card(const char *gameid)
 {
 	int i;
-
 	char *url = (char *)MEM2_alloc(MAX_URL_SIZE); // Too much memory, but only like 10 bytes
 	memset(url, 0, MAX_URL_SIZE);
 
